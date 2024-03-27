@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-app-node-slade"
+  description: "test-app-node-slade"
+  annotations:
+    github.com/project-slug: undefined/undefined
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/guests"
